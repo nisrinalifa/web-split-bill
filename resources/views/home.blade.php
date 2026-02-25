@@ -61,5 +61,5 @@
 @endsection
 
 @push('scripts')
-    <script src="{{ asset('js/home.js') }}"></script>
+    <script src="{{ secure_asset('js/home.js') }}"></script>
 @endpush

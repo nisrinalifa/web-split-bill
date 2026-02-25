@@ -23,7 +23,7 @@
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
 
-    <script src="{{ asset('js/firebase-config.js') }}"></script>
+    <script src="{{ secure_asset('js/firebase-config.js') }}"></script>
     
     @stack('scripts')
 </body>

@@ -14,7 +14,7 @@
 
     <h3>Owner: {{ $nama }}</h3>
 
-    <img src={{ asset('img/gambar.png') }} alt="" width="100px">
+    <img src={{ secure_asset('img/gambar.png') }} alt="" width="100px">
 
     <script src="js/script.js"></script>
 </body>

@@ -98,7 +98,7 @@
         </div>
     </div>
 
-    <script src="{{ asset('js/firebase-config.js') }}"></script> 
-    <script src="{{ asset('js/detail.js') }}"></script>
+    <script src="{{ secure_asset('js/firebase-config.js') }}"></script> 
+    <script src="{{ secure_asset('js/detail.js') }}"></script>
 </body>
 </html>
