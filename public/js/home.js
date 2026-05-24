@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <tr>
             <td colspan="3" class="text-center py-8">
                 <div class="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
-                <p class="mt-2 text-slate-500 text-sm font-semibold">Lagi narik data...</p>
+                <p class="mt-2 text-slate-500 text-sm font-semibold">Sedang menarik data...</p>
             </td>
         </tr>`;
 
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ambilDataFirestore(user.uid);
         } else {
             // Kalau belum login
-            tabel.innerHTML = `<tr><td colspan="3" class="text-center py-8">Silakan Login Dulu</td></tr>`;
+            tabel.innerHTML = `<tr><td colspan="3" class="text-center py-8">Silahkan Login Dulu</td></tr>`;
         }
     });
 });
@@ -85,7 +85,7 @@ function ambilDataFirestore(uid) {
                 <td class="px-6 py-5 text-right">
                     <div class="flex justify-end items-center gap-2">
                         <button onclick="hapusTagihanHome('${id}', event)" title="Hapus Tagihan" 
-                            class="w-8 h-8 rounded-full flex items-center justify-center text-slate-300 hover:bg-red-100 hover:text-red-600 transition-colors z-10">
+                            class="w-8 h-8 rounded-full flex items-center justify-center text-red-600 hover:bg-red-100 hover:text-red-600 transition-colors z-10">
                             <span class="material-icons-round text-lg">delete</span>
                         </button>
                         
